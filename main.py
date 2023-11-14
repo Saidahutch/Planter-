@@ -20,7 +20,9 @@ while tryAgain:
 
     introduction()
 
-    lighting = int(input( questions[ 0 ] + ": " ))
+    question1 = questions[ 0 ]
+
+    lighting = int(input( question1 + ": " ))
 
     if lighting < 5:
         print("Plants that need low light will be good for you, examples of low light plants are Peace Lily's (I have one of my own), Philodendron's, and Pothos. These are all low maintenece and don't need a ton of water. They are also good for people who are new plant parents.")
