@@ -4,11 +4,13 @@ questions = [
     "Do you want to hang your plant of put it on a flat surface, 1 for hang and 2 for surface"
 ]
 
+#This indicates the begining of the game so the users understand
 def begin():
     print("Start quiz")
 
 begin()
 
+#This function introduces the creator of the program, Saida Hutchinson, and gives an overview on what it is.
 def introduction():
     print("My name is Saida Hutchinson and I love plants. Planter is a program that will help you find the plants that are perfect for your space.")
 
